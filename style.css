@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  height: 1vh;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.secret-number {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  width: 40%;
+  margin: 0.5em auto;
+  font-size: 5rem;
+}
+
+input {
+  background-color: rgb(24, 24, 24);
+  padding: 0.5em;
+  width: 30%;
+  font-size: 3rem;
+  margin: 0.5em auto;
+  display: block;
+  text-align: center;
+  outline: auto;
+  color: white;
+}
+
+button {
+  padding: 1em;
+}
+
+p.highscore-board,
+p.score-board {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
