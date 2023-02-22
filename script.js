@@ -52,6 +52,7 @@ function checkNumber() {
 
 // Reset Button Function
 const reset = () => {
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
   document.querySelector("body").style.backgroundColor = "rgb(24, 24, 24)";
   document.querySelector(".secret-number").textContent = "?";
   message.textContent = "Take a guess...";
